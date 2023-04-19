@@ -1,0 +1,76 @@
+.container{
+    display:flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 24px;
+    background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c9d6ff, #e2e2e2); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+    
+}
+a{
+    text-decoration: none;
+}
+.addtocart{
+    display:flex;
+    align-items: center;
+   font-size: 20px;
+    padding: 24px;
+    
+}
+.heading{
+    
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c9d6ff, #e2e2e2); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.heading1{
+    
+    align-items: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+.right input{
+    width: 300px;
+    padding: 5px;
+    
+}
+.heading1 .search input{
+    width: 300px;
+    
+}
+.search {
+    width: auto;
+    height: 1.5rem;
+    border-radius: 2rem;
+    border: 2px solid #009688;
+    
+    
+}
+.cart span{
+    position: relative;
+    top: -25px;
+}
